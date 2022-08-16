@@ -263,7 +263,7 @@
 
 
 
- 
+
 
 // // //// the curly bracket is the block of function .
 
@@ -321,7 +321,7 @@
 
 // //     return uName;
 // //     }
-    
+
 // // /// to get data from function , create a variable and store the calling function
 
 // //    var res =  showUserData("umair")
@@ -380,13 +380,13 @@
 
 
 
-// // var cities = ["karachi","lahore","peshawar","hyderabad"]; 
+// var cities = ["karachi","lahore","peshawar","hyderabad"]; 
 
-// // cities.splice(1,2);
+// // // cities.splice(1,2);
 
-// // cities.splice(2,0,"abtabad","quetta")
-// // cities.splice(0,1,"abtabad","quetta")
-// // console.log(cities)
+// // // cities.splice(2,0,"abtabad","quetta")
+// cities.splice(0,1,"abtabad","quetta")
+// // // console.log(cities)
 
 // // var cities = ["karachi","lahore","peshawar","hyderabad"]; 
 // // var cities2  = ["Quetta","abtabad"];
@@ -403,7 +403,7 @@
 
 // // console.log(cities[3]);
 
-// var cities = ["karachi","lahore","peshawar","hyderabad"]; 
+var cities = ["karachi", "lahore", "peshawar", "hyderabad"];
 
 // function userName(para1,para2){
 // console.log(para1);
@@ -426,3 +426,65 @@
 //     return val > 60;
 // })
 // console.log(res1);
+
+// function userName(){
+
+// }
+
+
+///////MULTI DIMENSIONAL ARRAY
+
+// var arr = ["umair","khan","daniyal","kashif"];
+
+// arr[0]
+
+// var arr1 = [['umair','khan'],['daniyal','ahmad'],['kashif','majeed']];
+
+// console.log(arr1[1][0]);
+
+// var datas = [
+//     [['karachi'], ['hyderabad'], ['abtabad']],
+//     [['peshawar'], ['mardaan']],
+//     [['quetta'], ['islamabad'],]
+// ]
+
+// console.log(datas[1][1][0]);
+
+// console.log(typeof datas);
+
+
+// var userName = "Umair";
+
+// console.log(typeof userName);
+
+
+
+// var userObj = {
+//     userName :"umair",
+//     age:26,
+//     address:'karachi'
+// }
+
+// console.log(userObj["address"])
+// console.log(userObj.address);
+
+
+
+
+var obj ={
+    userName:'umair',
+    address:'karachi'
+}
+
+
+
+var cities5 = ["karachi","islamabad","hydebarad"];
+cities5[3] = "quetta";
+cities5[-1] = "peshawar";
+cities5[4] = "abtabad";
+
+//// array ke jo index hotay hain wo array ke properties bhi keh sktay hain.
+
+console.log(cities5);
+
+
